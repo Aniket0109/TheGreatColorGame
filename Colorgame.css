@@ -1,0 +1,66 @@
+body{
+	background : url("https://wallpapercave.com/wp/wp7213365.jpg");
+	font-family: "Avenir";
+	font-family: 'Cabin', sans-serif;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	font-family: 'Readex Pro', sans-serif;
+	margin: 5% 20%;
+}
+
+.square{
+	width: 30%;
+	background: purple;
+	float: left;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	border-radius:50%;
+	transition: background-color 0.6s;
+}
+
+.container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+ h1{
+ 	color: white;
+ 	text-align : center;
+ 	text-transform: uppercase;
+ 	background-color: steelblue;
+ 	margin: 0;
+ 	font-weight: normal;
+ 	line-height: 1.1;
+ 	padding: 20px 0;
+ }
+#stripe{
+ 	text-align: center;
+ 	background-color: white;
+ 	color :black;
+ 	height: 30px;
+ }
+ .selected{
+ 	color: white;
+ 	background-color: steelblue;
+ }
+ #colordisplay{
+ 	font-size: 200%;
+ }
+ button{
+ 	border : none;
+ 	background-color: none;
+ 	text-transform: uppercase;
+ 	height: 100%;
+ 	font-weight: 700;
+ 	color:steelblue;
+ 	font-size: inherit;
+ 	letter-spacing: 1px;
+ 	transition: all 0.3s;
+ 	outline: none;
+ }
+ #message{
+ 	display: inline-block;
+ 	width: 20%;
+ }
+ button:hover{
+ 	color: white;
+ 	background-color: steelblue;
+ }
